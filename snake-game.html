@@ -1,0 +1,39 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <title>Snake Game</title>
+    <meta charset="utf-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
+
+    <!-- import the webpage's stylesheet -->
+    <link rel="stylesheet" href="/style.css" />
+
+    <!-- import the webpage's javascript file -->
+    <script src="/snake-game.js" defer></script>
+
+    <!-- import the webpage's fonts -->
+    <link
+      rel="stylesheet"
+      type="text/css"
+      href="//fonts.googleapis.com/css?family=Abril+Fatface"
+    />
+    <link
+      href="https://fonts.googleapis.com/css?family=Shippori Antique"
+      rel="stylesheet"
+    />
+  </head>
+  <body class="snake-game">
+    <h1>Snake Game</h1>
+    <div style="text-align:center;">
+      <!--game interface consists of a score on top and the game board-->
+      <div id="score">0</div>
+      <canvas id="gameBoard" width="350" height="350"></canvas>
+    </div>
+    <h2>Keep clicking the button below to accelerate and avoid touching the blocks!</h2>
+    <!--the play button starts the game-->
+    <div style="text-align: center">
+      <button id="playButton">Play</button>
+    </div>
+  </body>
+</html>

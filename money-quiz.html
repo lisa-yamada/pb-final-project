@@ -1,0 +1,307 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <title>Money Quiz</title>
+    <meta charset="utf-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
+
+    <!-- import the webpage's stylesheet -->
+    <link rel="stylesheet" href="/style.css" />
+
+    <!-- import the webpage's javascript file -->
+    <script src="/money-quiz.js" defer></script>
+
+    <!-- import the webpage's fonts -->
+    <link
+      rel="stylesheet"
+      type="text/css"
+      href="//fonts.googleapis.com/css?family=Abril+Fatface"
+    />
+    <link
+      href="https://fonts.googleapis.com/css?family=Shippori Antique"
+      rel="stylesheet"
+    />
+  </head>
+  <body class="money-quiz">
+    <!--Adapted from: https://www.buzzfeed.com/katangus/can-you-waste-1-million-in-a-week-->
+    <div id="title">
+      <h1 style="text-align:center">Can you waste $1M?</h1>
+      <h2 style="text-align:center">
+        Select an option to each prompt below and see if you are able to spend
+        $1M in a week!
+      </h2>
+    </div>
+
+    <!--Each question has 4 associated answer options which are buttons-->
+    <h2>Pick a hotel suite to stay in for a week</h2>
+    <div class="question">
+      <div class="answer">
+        <img
+          src="https://cdn.glitch.me/bf9a4f49-0c63-4925-8527-6ec94126a29f%2Froyalvilla.jpeg?v=1638897111468"
+        />
+        <br />
+        <button id="royalVilla" class="question1">
+          royal villa at grand resort lagonissi
+        </button>
+      </div>
+      <br />
+      <div class="answer">
+        <img
+          src="https://cdn.glitch.me/bf9a4f49-0c63-4925-8527-6ec94126a29f%2Fcannes.jpeg?v=1638897309551"
+        />
+        <br />
+        <button id="cannes" class="question1">
+          presidential suite at grand hyatt martinez cannes
+        </button>
+      </div>
+      <br />
+      <div class="answer">
+        <img
+          src="https://cdn.glitch.me/bf9a4f49-0c63-4925-8527-6ec94126a29f%2Fplaza.jpeg?v=1638897320183"
+        />
+        <br />
+        <button id="plaza" class="question1">royal suite at plaza hotel</button>
+      </div>
+      <br />
+      <div class="answer">
+        <img
+          src="https://cdn.glitch.me/bf9a4f49-0c63-4925-8527-6ec94126a29f%2Fhilltop.jpeg?v=1638897315235"
+        />
+        <br />
+        <button id="hilltop" class="question1">
+          hilltop estate at laucala resort
+        </button>
+      </div>
+    </div>
+
+    <h2>Rent a luxury vehicle</h2>
+    <div class="question">
+      <div class="answer">
+        <img
+          src="https://cdn.glitch.me/bf9a4f49-0c63-4925-8527-6ec94126a29f%2Flambo.jpeg?v=1638897593780"
+        />
+        <br />
+        <button id="lambo" class="question1">
+          lamborghini gallardo spyder
+        </button>
+      </div>
+      <br />
+      <div class="answer">
+        <img
+          src="https://cdn.glitch.me/bf9a4f49-0c63-4925-8527-6ec94126a29f%2Frr.jpeg?v=1638897606884"
+        />
+        <br />
+        <button id="rr" class="question1">rolls royce phantom</button>
+      </div>
+      <br />
+      <div class="answer">
+        <img
+          src="https://cdn.glitch.me/bf9a4f49-0c63-4925-8527-6ec94126a29f%2Fmaybach.jpeg?v=1638897598321"
+        />
+        <br />
+        <button id="maybach" class="question1">maybach 47s</button>
+      </div>
+      <br />
+      <div class="answer">
+        <img
+          src="https://cdn.glitch.me/bf9a4f49-0c63-4925-8527-6ec94126a29f%2Fferrari.jpeg?v=1638897584185"
+        />
+        <br />
+        <button id="ferrari" class="question1">ferrari 458 italia</button>
+      </div>
+    </div>
+
+    <h2>Choose a venue for a party</h2>
+    <div class="question">
+      <div class="answer">
+        <img
+          src="https://cdn.glitch.me/bf9a4f49-0c63-4925-8527-6ec94126a29f%2Fnyc.jpeg?v=1638897843930"
+        />
+        <br />
+        <button id="nyc" class="question1">madison square garden, nyc</button>
+      </div>
+      <br />
+      <div class="answer">
+        <img
+          src="https://cdn.glitch.me/bf9a4f49-0c63-4925-8527-6ec94126a29f%2Ffrance.jpeg?v=1638897832012"
+        />
+        <br />
+        <button id="france" class="question1">
+          chateaux vaux-le-vicomte, france
+        </button>
+      </div>
+      <br />
+      <div class="answer">
+        <img
+          src="https://cdn.glitch.me/bf9a4f49-0c63-4925-8527-6ec94126a29f%2Fflorida.jpg?v=16388978294791"
+        />
+        <br />
+        <button id="littlePalm" class="question1">
+          little palm island, florida
+        </button>
+      </div>
+      <br />
+      <div class="answer">
+        <img
+          src="https://cdn.glitch.me/bf9a4f49-0c63-4925-8527-6ec94126a29f%2Fitaly.jpeg?v=1638897837814"
+        />
+        <br />
+        <button id="italy" class="question1">odescalchi castle, italy</button>
+      </div>
+    </div>
+
+    <h2>Choose an artist to perform at your party</h2>
+    <div class="question">
+      <div class="answer">
+        <img
+          src="https://cdn.glitch.me/bf9a4f49-0c63-4925-8527-6ec94126a29f%2Fjason.jpeg?v=1638910722879"
+        />
+        <br />
+        <button id="jason" class="question1">jason derulo</button>
+      </div>
+      <br />
+      <div class="answer">
+        <img
+          src="https://cdn.glitch.me/bf9a4f49-0c63-4925-8527-6ec94126a29f%2Fselena.jpeg?v=1638910733268"
+        />
+        <br />
+        <button id="selena" class="question1">selena gomez</button>
+      </div>
+      <br />
+      <div class="answer">
+        <img
+          src="https://cdn.glitch.me/bf9a4f49-0c63-4925-8527-6ec94126a29f%2Fkendrick.jpg?v=1638910728423"
+        />
+        <br />
+        <button id="kendrick" class="question1">kendrick lamar</button>
+      </div>
+      <br />
+      <div class="answer">
+        <img
+          src="https://cdn.glitch.me/bf9a4f49-0c63-4925-8527-6ec94126a29f%2Favril.jpeg?v=1638910716286"
+        />
+        <br />
+        <button id="avril" class="question1">avril lavigne</button>
+      </div>
+    </div>
+
+    <h2>Take 11 of your friends out to dinner</h2>
+    <div class="question">
+      <div class="answer">
+        <img
+          src="https://cdn.glitch.me/bf9a4f49-0c63-4925-8527-6ec94126a29f%2Fsublimotion.jpeg?v=1638911264759"
+        />
+        <br />
+        <button id="sublimotion" class="question1">sublimotion, ibiza</button>
+      </div>
+      <br />
+      <div class="answer">
+        <img
+          src="https://cdn.glitch.me/bf9a4f49-0c63-4925-8527-6ec94126a29f%2Faragawa.jpeg?v=1638911059257"
+        />
+        <br />
+        <button id="aragawa" class="question1">aragawa, tokyo</button>
+      </div>
+      <br />
+      <div class="answer">
+        <img
+          src="https://cdn.glitch.me/bf9a4f49-0c63-4925-8527-6ec94126a29f%2Fmasa.jpeg?v=1638911068090"
+        />
+        <br />
+        <button id="masa" class="question1">masa, new york city</button>
+      </div>
+      <br />
+      <div class="answer">
+        <img
+          src="https://cdn.glitch.me/bf9a4f49-0c63-4925-8527-6ec94126a29f%2FplazaAthenee.jpeg?v=1638911076945"
+        />
+        <br />
+        <button id="plazaAthenee" class="question1">
+          plaza athenee, paris
+        </button>
+      </div>
+    </div>
+
+    <h2>Choose a wine for a wine night</h2>
+    <div class="question">
+      <div class="answer">
+        <img
+          src="https://cdn.glitch.me/bf9a4f49-0c63-4925-8527-6ec94126a29f%2Fcl.jpeg?v=1638911466670"
+        />
+        <br />
+        <button id="1865" class="question1">chateau lafite, 1865</button>
+      </div>
+      <br />
+      <div class="answer">
+        <img
+          src="https://cdn.glitch.me/bf9a4f49-0c63-4925-8527-6ec94126a29f%2Fhiedsiek.jpeg?v=1638911474339"
+        />
+        <br />
+        <button id="1907" class="question1">heidsiek, 1907</button>
+      </div>
+      <br />
+      <div class="answer">
+        <img
+          src="https://cdn.glitch.me/bf9a4f49-0c63-4925-8527-6ec94126a29f%2Fcb.jpeg?v=1638911464769"
+        />
+        <br />
+        <button id="1947" class="question1">cheval blanc, 1947</button>
+      </div>
+      <br />
+      <div class="answer">
+        <img
+          src="https://cdn.glitch.me/bf9a4f49-0c63-4925-8527-6ec94126a29f%2Fcm.jpeg?v=1638911469806"
+        />
+        <br />
+        <button id="1900" class="question1">
+          chateau margaux 1er cru classe, 1900
+        </button>
+      </div>
+    </div>
+
+    <h2>Unwind after a long week</h2>
+    <div class="question">
+      <div class="answer">
+        <img
+          src="https://cdn.glitch.me/bf9a4f49-0c63-4925-8527-6ec94126a29f%2Fdiamonds.jpeg?v=1638911700201"
+        />
+        <br />
+        <button id="diamond" class="question1">diamond massage</button>
+      </div>
+      <br />
+      <div class="answer">
+        <img
+          src="https://cdn.glitch.me/bf9a4f49-0c63-4925-8527-6ec94126a29f%2Fturkish.jpeg?v=1638911714882"
+        />
+        <br />
+        <button id="turkish" class="question1">turkish bath</button>
+      </div>
+      <br />
+      <div class="answer">
+        <img
+          src="https://cdn.glitch.me/bf9a4f49-0c63-4925-8527-6ec94126a29f%2Fgold.jpeg?v=1638911707389"
+        />
+        <br />
+        <button id="gold" class="question1">gold facial</button>
+      </div>
+      <br />
+      <div class="answer">
+        <img
+          src="https://cdn.glitch.me/bf9a4f49-0c63-4925-8527-6ec94126a29f%2Fevian.png?v=1638911914188"
+        />
+        <br />
+        <button id="evian" class="question1">evian bath</button>
+      </div>
+    </div>
+
+    <!--displays a win or lose message-->
+    <br />
+    <div class="theEnd">
+      <br />
+      <h3 id="result"></h3>
+      <br />
+      <button id="retake">retake the quiz!</button>
+    </div>
+  </body>
+</html>

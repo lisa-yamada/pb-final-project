@@ -1,0 +1,133 @@
+/*HOME PAGE*/
+
+.home {
+  background-color: #fae1ddff;
+}
+
+.title {
+  color: #e8a598ff;
+}
+
+.home h1 {
+  color: #e8a598ff;
+  font-family: "Abril Fatface";
+}
+
+.home h3 {
+  color: #e8a598ff;
+  font-family: "Shippori Antique";
+}
+
+.options {
+  width: 100%;
+  text-align: center;
+}
+
+.personality {
+  width: 30%;
+  height: 30%;
+}
+
+a {
+  margin: 0 auto;
+}
+
+/*PERSONALITY QUIZ*/
+
+.personality-quiz {
+  background-color: #BFEDD0;
+  color: #469d89ff;
+}
+
+.personality-quiz img {
+  width: 30%;
+  height: 30%;
+}
+
+.personality-quiz h1 {
+  font-family: "Abril Fatface";
+  text-align: center;
+}
+
+.personality-quiz h2 {
+  font-family: "Shippori Antique";
+  text-align: center;
+}
+
+.personality-quiz .question {
+  text-align: center;
+}
+
+.personality-quiz img {
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+}
+
+.personality-quiz .theEnd {
+  background: #469d89ff;
+  color: #BFEDD0;
+  font-family: "Shippori Antique";
+  text-align: center;
+}
+
+/*MONEY QUIZ*/
+.money-quiz {
+  background-color: #DDBDFC;
+  color: #757BC8;
+}
+
+.money-quiz h1 {
+  font-family: "Abril Fatface";
+  text-align: center;
+}
+
+.money-quiz h2 {
+  font-family: "Shippori Antique";
+  text-align: center;
+}
+
+.money-quiz img {
+  width: 200px;
+  height: 200px;
+}
+
+.money-quiz .question {
+  text-align: center;
+}
+
+.money-quiz .theEnd {
+  background: #757BC8;
+  color: #DDBDFC;
+  font-family: "Shippori Antique";
+  text-align: center;
+}
+
+/*SNAKE GAME*/
+
+.gameBoard {
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+}
+
+.snake-game {
+  background-color: #FFC300;
+  color: #FF8800;
+}
+
+.snake-game h1 {
+  font-family: "Abril Fatface";
+  text-align: center;
+}
+
+.snake-game h2 {
+  font-family: "Shippori Antique";
+  text-align: center;
+}
+
+.snake-game #score {
+  font-family: "Shippori Antique";
+  font-size: 25px;
+}
